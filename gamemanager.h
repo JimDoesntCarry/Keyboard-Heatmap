@@ -1,13 +1,13 @@
 #ifndef _GAME_MANAGER_H
 #define _GAME_MANAGER_H
-#include "Graphics.h"
+#include "graphics.h"
 
 class GameManager{
 private:
   static GameManager* sInstance;
   bool mQuit;
-  Grpahics* mGraphics;
-  SDL_event mEvents;
+  Graphics* mGraphics;
+  SDL_Event mEvents;
 
 public:
   static GameManager* Instance();
@@ -16,7 +16,5 @@ public:
 private:
   GameManager(); //Constructor
   ~GameManager(); //Deconstructor
-}
-
+};
 #endif
-https://youtu.be/ATa_joa6Gzg?t=1152s

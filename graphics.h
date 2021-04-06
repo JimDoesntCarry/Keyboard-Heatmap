@@ -21,4 +21,5 @@ private:
   Graphics();
   ~Graphics();
   bool Init();
-}
+};
+#endif
